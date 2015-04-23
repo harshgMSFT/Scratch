@@ -15,6 +15,7 @@ namespace Repro
             hashSet.Add("ada1");
             hashSet.Add("ada2");
             IReadOnlyCollection<string> hash = (IReadOnlyCollection<string>)hashSet;
+            Console.WriteLine(hash.First());
         }
     }
 }
